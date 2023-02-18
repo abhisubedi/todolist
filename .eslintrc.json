@@ -1,0 +1,39 @@
+{
+  // the order of the "extends" array matters.
+
+  "extends": [
+    "eslint:recommend", // loads all of the eslint:recommend rules
+    "plugin:import/errors",
+    "plugin:react/recommend",
+    "plugin:jsx-a11y/recommend",
+    "prettier" // turns off the eslint white space rules and other rules
+  ],
+
+  "plugins": ["react", "jsx-a11y", "import"],
+
+  "rules": {
+    "react/prop-types": 0, // turns off props type '0' means turn off
+    "react/react-in-jsx-scope": 0 // turns off requiring to import react in every file
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 2022, //use the modern version
+    "sourceType": "module", // we will be using ES Modules
+    "ecmaFeatures": {
+      "jsx": true // we will be using JSX
+    }
+  },
+
+  "env": {
+    //describes the environement in which the code is running
+    "es6": true, // we will be using ES6
+    "browser": true, // we will be using the browser
+    "node": true // eslint won't complain about node
+  },
+
+  "settings": {
+    "react": {
+      "version": "detect" // automatically detect the react version
+    }
+  }
+}
