@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Box, Text, Center } from "@chakra-ui/react";
+import { Container, Box, Text } from "@chakra-ui/react";
 
 export default function Headers() {
   return (

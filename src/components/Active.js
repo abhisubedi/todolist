@@ -2,9 +2,7 @@ import {
   Container,
   Box,
   Text,
-  Input,
   Stack,
-  Button,
   Checkbox,
   CheckboxGroup,
 } from "@chakra-ui/react";

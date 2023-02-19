@@ -2,10 +2,10 @@
   // the order of the "extends" array matters.
 
   "extends": [
-    "eslint:recommend", // loads all of the eslint:recommend rules
+    "eslint:recommended", // loads all of the eslint:recommend rules
     "plugin:import/errors",
-    "plugin:react/recommend",
-    "plugin:jsx-a11y/recommend",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
     "prettier" // turns off the eslint white space rules and other rules
   ],
 
