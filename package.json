@@ -2,9 +2,9 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,6 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
-    "parcel": "^2.8.3",
     "prettier": "^2.8.4",
     "process": "^0.11.10"
   },
@@ -26,6 +25,7 @@
     "framer-motion": "^9.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1"
   }
 }
